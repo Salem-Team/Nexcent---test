@@ -3,11 +3,11 @@
     font-family: "Inter", sans-serif;
 }
 :root{
-    --main_color--:#4CAF4F;
+    --main_color--:#28CB8B;
     --secodry_color--:white;
     --text_color--:black;
-    --hover_color--:#ddd;
-    --dot_color--:#4caf4f63;
+    --hover_color--:#F5F7FA;
+    --dot_color--:#C8E6C9;
 }
 body { 
     margin: 0;
@@ -69,17 +69,8 @@ body {
     margin: auto;
   }
   
-  /*text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    width: 100%;
-    text-align: center;
-  }
   
-  
-  /* The dots/bullets/indicators */
+  /* The dots */
   .dot {
     height: 15px;
     width: 15px;
