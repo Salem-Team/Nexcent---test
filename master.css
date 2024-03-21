@@ -2,7 +2,31 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
+:root{
+--black--:#263238;
+--D_Grey--:#4D4D4D; 
+--Gray--:#717171;
+--L_Grey--:#89939E;
+--Grey-blue--:#ABBED1;
+--Silver--:#F5F7FA;
+--White--:#FFFFFF;
+--Primary_color--:#28CB8B;
+--Secondary_Color--:#263238;
+--Info_color--:#2194f3;
+--Success_color--:#2E7D31;
+--Warning_color--:#FBC02D;
+--Error_color--:#E53835;
+--Shade1_color--:#43A046;
+--Shade2_color--:#388E3B;
+--Shade3_color--:#237D31;
+--Shade4_color--:#1B5E1F;
+--Shade5_color--:#103E13;
+--Tint1_color--:#66BB69;
+--Tint2_color--:#81C784;
+--Tint3_color--:#A5D6A7;
+--Tint4_color--:#C8E6C9;
+--Tint5_color--:#E8F5E9;
+}
 body { 
     margin: 0;
     padding: 0;
