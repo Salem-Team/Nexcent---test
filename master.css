@@ -37,3 +37,163 @@ body {
 /*Start Nada's section*/
 
 /*End Nada's section*/
+/* start saad  */
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+:root{
+--black--:#263238;
+--D_Grey--:#4D4D4D; 
+--Gray--:#717171;
+--L_Grey--:#89939E;
+--Grey-blue--:#ABBED1;
+--Silver--:#F5F7FA;
+--White--:#FFFFFF;
+--Primary_color--:#28CB8B;
+--Secondary_Color--:#263238;
+--Info_color--:#2194f3;
+--Success_color--:#2E7D31;
+--Warning_color--:#FBC02D;
+--Error_color--:#E53835;
+--Shade1_color--:#43A046;
+--Shade2_color--:#388E3B;
+--Shade3_color--:#237D31;
+--Shade4_color--:#1B5E1F;
+--Shade5_color--:#103E13;
+--Tint1_color--:#66BB69;
+--Tint2_color--:#81C784;
+--Tint3_color--:#A5D6A7;
+--Tint4_color--:#C8E6C9;
+--Tint5_color--:#E8F5E9;
+}
+body { 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/*Start Nada's section*/
+
+/*End Nada's section*/
+/* start saad */
+/* start .landing-tow */
+
+
+
+.boxez{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;}
+.landing-tow{
+
+background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 25px 30px;
+}
+.landing-tow .item{
+    height: 115px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-left: 43px;
+}
+.landing-tow .item h3{
+font-size: 15px;
+    font-weight: 600;
+    width: 132px;
+    height: 30px;
+    line-height: 23px;
+    margin-bottom: -6px;
+}
+.landing-tow .item span{
+color: #2E7D31;
+font-weight: 600;
+
+}
+.landing-tow .item p{
+font-size: 10px;
+margin-top: 5px;
+}
+.text-icon span{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: -5px;
+}
+.text-icon p{
+    font-size: 11px;
+    color: #777;
+    font-weight: 500;
+}
+.icons img{
+    margin-top: -6px;
+    margin-left: 11px;
+}
+.icons{
+    width: 36px;
+    height: 21px;
+}
+/* end landing-tow */
+/* start landing-three */
+.landing-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    margin-top: 35px;
+}
+.landing-three .text{
+    width: 50%;
+    margin-left: 35px
+}
+.landing-three .img img {
+    height: 233px;
+}
+.landing-three .text h4 {
+   
+    margin-bottom: 15px;
+}
+.landing-three .text p {    color: #777;
+    font-size: 10px;
+    margin-top: -8px;
+    line-height: 18px;
+}
+.landing-three .text button {
+    padding: 9px 19px;
+    margin-top: 10px;
+    background: #2E7D31;
+    border-radius: 6px;
+    border: none;
+}
+.landing-three .text button a{
+
+    text-decoration: none;text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* end landing-three */
+
+/* end  saad  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
