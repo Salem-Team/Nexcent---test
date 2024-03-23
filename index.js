@@ -1,4 +1,18 @@
 //Start Nada's section
+
+// Start responsive menu function
+
+function myFunction() {
+  var x = document.getElementById("header_r");
+  if (x.className === "header_right") {
+    x.className += " responsive";
+  } else {
+    x.className = "header_right";
+  }
+}
+
+// End responsive menu function
+
 //Start Slideshow container 
 let slideIndex = 0;
 showSlides();
@@ -20,4 +34,5 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 //End of Slideshow Container
+
 //End Nada's  section
