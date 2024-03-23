@@ -85,7 +85,9 @@ body {
 .header_right {
     float: right;
 }
-
+.header_right .icon {
+    display: none;
+}
 /*End Header*/
 
 /* Start Slideshow*/
@@ -204,6 +206,7 @@ body {
 }
 #clints .logos{
     display: flex;
+    flex-flow: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -219,12 +222,12 @@ body {
     padding: 0 8%;
     text-align: center;
 }
-.cards{
+#community .cards{
     display: flex;
     justify-content: space-around;
     padding:2% ;
 }
-.card{
+#community .card{
     width: 23%;
     height: 55vh;
     margin: 1%;
@@ -233,17 +236,17 @@ body {
     border-radius: 10px;
     box-shadow:  0px 0.6px 1.3px 0px var(--Grey-blue--);
 }
-.card img{
+#community .card img{
     width:23%;
     
 }
-.card h3{
+#community .card h3{
     padding: 0 6%;
     line-height: 23px;
     font-weight: 700;
     font-size: 26px;
 }
-.shade{
+#community .shade{
     z-index: -227;
     position: relative;
     top: calc(15% + 10px);
@@ -261,6 +264,62 @@ body {
 }
 /* End community section*/
 
+/* Strat medai query section */
+
+@media screen and (max-width: 700px) {
+    /*header section*/
+    .header_right a:not(:first-child) {display: none;}
+    .header_right a.icon {
+        float: right;
+        display: block;
+    }
+    .header_right.responsive {position: relative;}
+    .header_right.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header_right.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    /*End header section*/
+
+    /*Start Start hero section*/
+    .my_slides img{
+        width: 100%;
+    }
+    .my_slides .bold ,.my_slides .bold1{
+        font-size: larger;
+        
+    }
+    /* End hero section*/
+
+    /* Start clints section */
+
+    #clints .logos{
+        flex-flow: column;
+        align-items: center;
+    }
+    #clints .logos img{
+        width:  10%;
+    }
+    
+    /* End  clints section */
+
+    /*Start community section*/
+    #community .cards{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #community .card{
+        width:  80%;
+    }
+    /*End community section*/
+}
+/* End  media query section */
 /*End Nada's section*/
 
 /* start saad */
