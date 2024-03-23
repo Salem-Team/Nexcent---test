@@ -319,6 +319,9 @@ body {
     }
     #community .card{
         width:  80%;
+        height: fit-content;
+        padding:2%;
+        box-sizing: border-box;
     }
     #community .card h3{
         font-size:medium;
