@@ -266,6 +266,20 @@ body {
 
 /* Strat medai query section */
 
+@media screen and (max-width:600px) {
+      /* Start clints section */
+
+    #clints .logos{
+        flex-flow: column;
+        align-items: center;
+    }
+    #clints .logos img{
+        width:  10%;
+    }
+
+    /* End  clints section */
+}
+
 @media screen and (max-width: 820px) {
     /*header section*/
     .header_right a:not(:first-child) {display: none;}
@@ -296,18 +310,6 @@ body {
         
     }
     /* End hero section*/
-
-    /* Start clints section */
-
-    #clints .logos{
-        flex-flow: column;
-        align-items: center;
-    }
-    #clints .logos img{
-        width:  10%;
-    }
-
-    /* End  clints section */
 
     /*Start community section*/
     #community .cards{
