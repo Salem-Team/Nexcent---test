@@ -508,3 +508,366 @@ margin-top: 5px;
 
 /* end  saad  */
 
+
+
+/*Start Abdullah section*/
+.container {
+  padding: 20px 50px;
+  display: flex;
+  width: Fixed (480.77px)px;
+  height: Hug (132.09px)px;
+  padding: 20.68px 48.08px 10.68px 100px;
+  gap: 26.04px;
+  opacity: 0px;
+  background-color: var(--Silver--);
+  justify-content: center;
+}
+
+.tesla {
+  width: 370px;
+}
+
+.content {
+  padding: 20px;
+  font-family: Inter;
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 500; 
+  text-align: left;
+  color: #717171;
+  display: inline-block;
+}
+
+.name {
+  color: #4CAF4F;
+  font-family: Inter;
+font-size: 16.68px;
+font-weight: 600;
+/* line-height: 9.35px; */
+text-align: left;
+
+}
+
+.more {
+  font-family: Inter;
+  font-size: 15.34px;
+  font-weight: 400;
+  line-height: 8.01px;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.frame_13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4CAF4F;
+}
+
+.logos {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row;
+  padding-top:  40px; 
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.logo-s img {
+  margin: 7px;
+  width: 40px;
+  display: flex;
+  height: 40px;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.bg {
+    background-image: url(image/LOGO/logo3-2.svg);
+    background-repeat: no-repeat;
+    background-size: 112%;
+    background-position: center;
+}
+
+.logo-word {
+    /* width: 7px;
+    height: 7px;
+    size: 2px; */
+}
+
+.logo-s2 {
+    width: 16.03px;
+height: 16.03px;
+padding: 3.62px 2.34px 3.39px 0px;
+gap: 0px;
+border-radius: 2.67px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.community_updates {
+  width: Hug (480.77px)px;
+  height: Hug (171.81px)px;
+  gap: 5.34px;
+  opacity: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.community {
+  width: Fixed (370.59px)px;
+  height: Hug (42.67px)px;
+  gap: 2.67px;
+  opacity: 0px;
+  display: block;
+
+}
+
+.section_title {
+  width: 370.59px;
+  height: 15px;
+  padding-left: 70px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 22.02px;
+  font-weight: 600;
+  line-height: 14.69px;
+  text-align: center;
+  color: var(--D_Grey--);
+}
+
+.description {
+  width: 491px;
+  height: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 15.34px;
+  font-weight: 400;
+  line-height: 14.01px;
+  text-align: center;
+  color: var(--Gray--);
+  
+}
+
+.frame_15 {
+  width: max-content;
+  height: max-content;
+}
+
+.frame_15 svg {
+  width: 900px;
+  height: 250px;
+}
+
+.footer p {
+    width: 400.14px;
+height: 51px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 38.37px;
+font-weight: 600;
+line-height: 40.37px;
+text-align: center;
+    
+
+}
+
+.up {
+    width: 400.13px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
+
+.footer {
+    width: Fixed (480.77px)px;
+    height: Hug (101.4px)px;
+    padding: 10.68px 0px 10.68px 0px;
+    gap: 10.68px;
+    opacity: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+footer {
+    width: auto;
+    height: 239.77px;
+    padding: 21.37px 55.09px 21.37px 55.09px;
+    gap: 41.73px;
+    opacity: 0px;
+    background: var(--black--);
+    margin-right: -50px;
+}
+
+.big {
+  height: 130px;
+  display: flex;
+}
+
+button {
+    width: 150.38px;
+    height: 50.35px;
+    padding: 4.67px 10.68px 4.67px 10.68px;
+    gap: 2.67px;
+    border-radius: 5px;
+    border: none;
+    opacity: 0px;
+    background: #4CAF4F;
+    color: #fff;    
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button svg {
+    width: 10px;
+    height: 10px;
+}
+
+.demo {
+    width: Hug (480.77px)px;
+    height: Hug (111.77px)px;
+    padding: 21.37px 55.09px 21.37px 55.09px;
+    gap: 41.73px;
+    opacity: 0px;
+    background: var(--Silver--);
+    /* display: flex; */
+    justify-content: center;
+
+}
+
+.company_info {
+    width: 200.85px;
+    height:100.97px;
+    gap: 13.35px;
+    opacity: 0px;
+    padding-left: 50px;
+
+}
+
+.logo_footer {
+    width: 30.45px;
+height: 20.91px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.logo_footer svg {
+    width: 100px;
+    height: 40px;
+}
+
+.copyright {
+    width: 170.85px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 10.67px;
+    font-weight: 400;
+    line-height: 25.68px;
+    text-align: left;
+    color: var(--Silver--);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.social_icons {
+  display: flex;
+  padding-top: 40px;
+}
+
+.social_icons img {
+    top: 2.49px;
+    left: 2.49px;
+    gap: 0px;
+    opacity: 0px;
+    width: 23.68px;
+    height: 13.68px;
+    gap: 0px;
+    opacity: 0.1px;
+    
+}
+
+.instagram {
+  width: 50px;
+  height: 50px;
+  background-image: url(image/BG.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  padding-left: 27%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col_1 {
+  width: Hug (53.42px)px;
+  height: Hug (69.04px)px;
+  gap: 8.01px;
+  opacity: 0px;
+
+}
+
+.col_1 h4 {
+  color: var(--White--);
+}
+
+.list_items {
+  display: grid;
+  line-height: 27px;
+  font-size: 10px;
+}
+
+.list_items a {
+  color: var(--Silver--);
+  text-decoration: none;
+}
+
+.col_2 {
+  padding-left: 70px;
+}
+
+.col_2 h4 {
+  color: var(--White--);
+}
+
+.col_3 {
+  padding-left: 70px;
+}
+
+.col_3 h4 {
+  color: var(--White--);
+}
+/*End Abdullah section*/
+
