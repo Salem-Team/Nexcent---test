@@ -811,7 +811,7 @@ footer {
   display: flex;
 }
 
-button {
+.button button {
     width: 150.38px;
     height: 50.35px;
     padding: 4.67px 10.68px 4.67px 10.68px;
