@@ -6,6 +6,7 @@ function myFunction() {
   var x = document.getElementById("header_r");
   if (x.className === "header_right") {
     x.className += " responsive";
+    y.className.replace(" active", "hidden") ;
   } else {
     x.className = "header_right";
   }
