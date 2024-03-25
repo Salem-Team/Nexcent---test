@@ -824,13 +824,13 @@ footer {
 
 }
 
-.button {
+.button button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-button svg {
+.button button svg {
     width: 10px;
     height: 10px;
 }
