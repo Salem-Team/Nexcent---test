@@ -355,7 +355,7 @@ body {
 
     /*Start Start hero section*/
     .my_slides{
-        height: 800px;
+        height: fit-content;
     }
     .my_slides img{
         width: 100%;
